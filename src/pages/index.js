@@ -2,7 +2,10 @@ import * as React from "react";
 
 // markup
 const IndexPage = () => {
-  return <div>Yeahhh Buddy!</div>;
+  <div>
+    <h1>Yeahhh Buddy!</h1>
+    <p>We did it!</p>
+  </div>;
 };
 
 export default IndexPage;
