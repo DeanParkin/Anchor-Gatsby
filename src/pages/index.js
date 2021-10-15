@@ -8,6 +8,7 @@ export default function index() {
       <Layout pageTitle="Yeahhh Buddy!">
         <h2>Yeahhhh Buddy!</h2>
         <p>I'm not trying to hack you!</p>
+        <Test />
       </Layout>     
     </div>
   )
