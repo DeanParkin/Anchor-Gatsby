@@ -1,5 +1,6 @@
 import * as React from "react";
-import Layout from "../components/Layout"
+import Layout from "../components/Layout";
+import Test from "../components/Test";
 
 export default function index() {
   return (
