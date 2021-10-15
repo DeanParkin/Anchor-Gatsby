@@ -37,9 +37,6 @@ export default function Layout({ pageTitle, children }) {
         </nav>
       </header>
       <main>{children}</main>
-      <footer>
-        <address>123 sesame street</address>
-      </footer>
     </div>
   );
 }
