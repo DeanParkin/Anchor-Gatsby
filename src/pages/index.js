@@ -1,7 +1,6 @@
 import * as React from "react";
 import Layout from "../components/Layout";
-import Test from "../components/Test";
-import About from "../components/About";
+import Katie from "../images/Katie.jpg";
 
 export default function index() {
   return (
@@ -9,7 +8,7 @@ export default function index() {
       <Layout pageTitle="Yeahhh Buddy!">
         <h2>Katie Fucking Rocks!</h2>
         <p>I'm not trying to hack you!</p>
-        <img src="../images/Katie.jpg"></img>
+        <img src={Katie} alt="Katie"></img>
       </Layout>     
     </div>
   )
