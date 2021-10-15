@@ -6,12 +6,10 @@ import About from "../components/About";
 export default function index() {
   return (
     <div>
-      <p>We gone and fucked it!</p>
       <Layout pageTitle="Yeahhh Buddy!">
-        <h2>Yeahhhh Buddy!</h2>
+        <h2>Katie Fucking Rocks!</h2>
         <p>I'm not trying to hack you!</p>
-        <Test />
-        <About />
+        <img src="../images/Katie.jpg"></img>
       </Layout>     
     </div>
   )
