@@ -8,6 +8,7 @@ export default function index() {
       <Layout pageTitle="Yeahhh Buddy!">
         <h2>Katie Fucking Rocks!</h2>
         <p>I'm not trying to hack you!</p>
+        <p>Lets get the Cocky T's going!</p>
         <img src={Katie} alt="Katie"></img>
       </Layout>     
     </div>
