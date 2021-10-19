@@ -7,6 +7,7 @@ export default function Layout({ pageTitle, children }) {
       <header>
         <nav>
           <title>{pageTitle}</title>
+          <meta name="description" content="The Anchor is a place of comfort to enjoy real ale, ciders, craft beers, wine, spirits and even cocktails, modern drinking in a traditional boozer. The Anchor is also one of the oldest public free houses in Digbeth, Birmingham, England, dating back to 1797. " />
           <div className="navbar">
             <div className="container nav-container">
               <input className="checkbox" type="checkbox" name="" id="" />
