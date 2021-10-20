@@ -1,5 +1,7 @@
 import React from 'react'
+import "../style/anchorNav.css"
 import AnchorNavLogo from "../imges/anchor-nav-logo.png"
+
 
 export default function Nav() {
     return (

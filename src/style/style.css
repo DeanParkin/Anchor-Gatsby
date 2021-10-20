@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-*img {
-  width: 100%;
-}
-
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -116,7 +112,6 @@ body {
   padding-left: 50px;
   transition: transform 0.5s ease-in-out;
   text-align: center;
-  background-color: #fff;
 }
 
 .navbar .menu-items li {
@@ -133,23 +128,23 @@ body {
   color: #0e2431;
 }
 
-.nav-container input[type="checkbox"]:checked ~ .menu-items {
+.nav-container input[type=checkbox]:checked ~ .menu-items {
   transform: translateX(0);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+.nav-container input[type=checkbox]:checked ~ .hamburger-lines .line1 {
   transform: rotate(45deg);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+.nav-container input[type=checkbox]:checked ~ .hamburger-lines .line2 {
   transform: scaleY(0);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+.nav-container input[type=checkbox]:checked ~ .hamburger-lines .line3 {
   transform: rotate(-45deg);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .logo {
+.nav-container input[type=checkbox]:checked ~ .logo {
   display: none;
 }
 
