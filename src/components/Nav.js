@@ -9,7 +9,7 @@ export default function Nav() {
                     <h1>
                         <span className="hide" hidden="">The Anchor</span>
                     </h1>
-                    <img src={AnchorNavLogo} alt="The Anchor Logo Home" className="" style=""/>
+                    <img src={AnchorNavLogo} alt="The Anchor Logo Home"/>
                 </a>{/*Nav Brand*/}
                 <button className="navbar-toggler navbar-light" id="hamburger" type="button" data-toggle="collapse" data-target="#myToggleNav" aria-controls="myToggleNav" aria-expanded="false" aria-label="Toggle navigation">
                     <div className="nav-icon">
