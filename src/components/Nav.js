@@ -1,66 +1,22 @@
 import React from "react";
-import AnchorNavLogo from "../images/anchor-nav-logo.png";
+import { Nav } from "react-bootstrap";
 
-export default function Nav() {
+export default function NavBarAnchor() {
   return (
     <div>
-      <nav
-        id="navbarSite"
-        role="navigation"
-        className="navbar navbar-expand-lg fixed-top shadow"
-      >
-        <a className="navbar-brand" href="#">
-          <h1>
-            <span className="hide" hidden="">
-              The Anchor
-            </span>
-          </h1>
-          <img src={AnchorNavLogo} alt="The Anchor Logo Home"></img>
-        </a>
-        <button
-          className="navbar-toggler navbar-light"
-          id="hamburger"
-          type="button"
-          data-toggle="collapse"
-          data-target="#myToggleNav"
-          aria-controls="myToggleNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <div className="nav-icon">
-            <div></div>
-          </div>
-        </button>
-        <div className="collapse navbar-collapse" id="myToggleNav">
-          <ul className="navbar-nav justify-content-center">
-            <li className="nav-item">
-              <a href="#pageTop" className="nav-link">
-                HOME
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#covidSection" className="nav-link">
-                COVID-19
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#beerSection" className="nav-link">
-                DRINKS
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#gallerySection" className="nav-link">
-                GALLERY
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#contactForm" className="nav-link ">
-                CONTACT
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <Nav variant="pills" defaultActiveKey="/home">
+        <Nav.Item>
+          <Nav.Link href="/home">Active</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link-1">Option 2</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="disabled" disabled>
+            Disabled
+          </Nav.Link>
+        </Nav.Item>
+      </Nav>
     </div>
   );
 }
