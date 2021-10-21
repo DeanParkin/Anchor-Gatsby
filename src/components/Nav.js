@@ -15,7 +15,7 @@ export default function NavBarAnchor() {
               height="30"
               className="d-inline-block align-top"
             />
-            Anchor Digbeth
+            Yeahhh Buddy!
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
     <Navbar.Offcanvas
