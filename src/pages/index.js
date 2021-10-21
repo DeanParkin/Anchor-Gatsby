@@ -12,6 +12,7 @@ export default function index() {
       <Helmet>
           <meta charSet="utf-8" />
           <html lang="en"/>
+          <title>Yeahhh Buddy!</title>
         </Helmet>
       <NavBarAnchor />
       <Container>
