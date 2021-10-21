@@ -9,6 +9,7 @@ export default function index() {
     <div>
       <title>Yeah Buddy!</title>
       <NavBarAnchor />
+      <h2>Finally Got it Working!!!</h2>
     </div>
   );
 }
