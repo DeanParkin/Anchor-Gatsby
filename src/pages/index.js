@@ -4,6 +4,8 @@ import NavBarAnchor from "../components/Nav";
 import "../style/style.css"
 import { Container } from "react-bootstrap";
 
+document.documentElement.lang = "en";
+
 export default function index() {
   return (
     <div>
