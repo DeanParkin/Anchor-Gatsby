@@ -23,10 +23,9 @@ export default function NavBarAnchor() {
                         />
                         Yeahhh Buddy!
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="offcanvasNavbar" />
+                    <Navbar.Toggle aria-controls="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"/>
                     <Navbar.Offcanvas
                         id="offcanvasNavbar"
-                        aria-labelledby="offcanvasNavbarLabel"
                         placement="start"
                     >
                         <Offcanvas.Header closeButton>
