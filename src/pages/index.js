@@ -7,8 +7,8 @@ import NavBarAnchor from "../components/Nav";
 export default function index() {
   return (
     <div>
+      <title>Yeah Buddy!</title>
       <NavBarAnchor />
-      <h1>yeah buddy!</h1>
     </div>
-  )
+  );
 }
