@@ -5,7 +5,7 @@ import AnchorNavLogo from "../images/anchor-nav-logo.png";
 export default function NavBarAnchor() {
   return (
     <>
-      <Navbar as="nav" bg="Light" variant="light" fixed="top" expand={'md'}>
+      <Navbar as="nav" bg="dark" variant="dark" fixed="top" expand={false}>
         <Container>
           <Navbar.Brand href="#home">
             <img
