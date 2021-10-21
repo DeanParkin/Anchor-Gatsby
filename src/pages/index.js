@@ -1,8 +1,7 @@
 import * as React from "react"; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBarAnchor from "../components/Nav";
-
-
+import "../style/style.css"
 
 export default function index() {
   return (
