@@ -3,13 +3,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBarAnchor from "../components/Nav";
 import "../style/style.css"
 import { Container } from "react-bootstrap";
+import { Helmet } from "react-helmet";
 
-document.documentElement.lang = "en";
 
 export default function index() {
   return (
     <div>
-      <title>Yeah Buddy!</title>
+      <Helmet>
+          <meta charSet="utf-8" />
+          <html lang="en"/>
+        </Helmet>
       <NavBarAnchor />
       <Container>
         <h2>Finally Got it Working!!!</h2>
