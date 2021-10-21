@@ -24,7 +24,7 @@ export default function NavBarAnchor() {
       placement="start"
     >
       <Offcanvas.Header closeButton>
-        <Offcanvas.Title id="offcanvasNavbarLabel">Offcanvas</Offcanvas.Title>
+        <Offcanvas.Title id="offcanvasNavbarLabel">Deez nutz!!!</Offcanvas.Title>
       </Offcanvas.Header>
       <Offcanvas.Body>
         <Nav className="justify-content-end flex-grow-1 pe-3">
