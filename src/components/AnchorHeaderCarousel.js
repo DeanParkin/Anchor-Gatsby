@@ -1,11 +1,11 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 
-import BEERTAPS2 from "../images/carousel-images/BEERTAPS2.jpg";
-import EXTERIOR from "../images/carousel-images/EXTERIOR.jpg";
-import OCTOPUS from "../images/carousel-images/OCTOPUS.jpg";
-import OUTSIDEPEOPLE from "../images/carousel-images/OUTSIDEPEOPLE.jpg";
-import STRAWS from "../images/carousel-images/STRAWS.jpg";
+import BEERTAPS2 from "../images/carousel-images/BEERTAPS2.webp";
+import EXTERIOR from "../images/carousel-images/EXTERIOR.webp";
+import OCTOPUS from "../images/carousel-images/OCTOPUS.webp";
+import OUTSIDEPEOPLE from "../images/carousel-images/OUTSIDEPEOPLE.webp";
+import STRAWS from "../images/carousel-images/STRAWS.webp";
 
 export default function AnchorHeaderCarousel() {
   return (
