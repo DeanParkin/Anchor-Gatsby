@@ -1,5 +1,6 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
+import { headerCarousel } from "../style/anchorHeaderCarousel.module.css";
 
 import BEERTAPS2 from "../images/carousel-images/BEERTAPS2.webp";
 import EXTERIOR from "../images/carousel-images/EXTERIOR.webp";
@@ -9,7 +10,7 @@ import STRAWS from "../images/carousel-images/STRAWS.webp";
 
 export default function AnchorHeaderCarousel() {
   return (
-    <>
+    <div className={headerCarousel}>
       <Carousel fade>
         <Carousel.Item>
           <img className="d-block w-100" src={BEERTAPS2} alt="Beer Taps" />
@@ -39,6 +40,6 @@ export default function AnchorHeaderCarousel() {
           />
         </Carousel.Item>
       </Carousel>
-    </>
+    </div>
   );
 }
