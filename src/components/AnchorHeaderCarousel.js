@@ -1,4 +1,6 @@
 import React from "react";
+import { Carousel } from "react-bootstrap";
+
 import BEERTAPS2 from "../images/carousel-images/BEERTAPS2.jpg";
 import EXTERIOR from "../images/carousel-images/EXTERIOR.jpg";
 import OCTOPUS from "../images/carousel-images/OCTOPUS.jpg";
