@@ -27,7 +27,6 @@ export default function index() {
       <Container>
         <h2>Finally Got it Working!!!</h2>
       </Container>
-      <Map location={location} zoomLevel={17}/>
     </div>
   );
 }
