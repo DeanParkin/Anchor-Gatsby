@@ -15,13 +15,18 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@iconify/icons-mdi": "^1.1.36",
     "@popperjs/core": "^2.10.2",
     "bootstrap": "^5.1.1",
     "gatsby": "^3.13.1",
     "gatsby-plugin-react-helmet": "^4.14.0",
+    "google-map-react": "^2.1.10",
     "react": "^17.0.1",
     "react-bootstrap": "^2.0.0-rc.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@iconify/react": "^3.0.1"
   }
 }

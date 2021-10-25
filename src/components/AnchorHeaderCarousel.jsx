@@ -22,7 +22,7 @@ export default function AnchorHeaderCarousel() {
           <img
             className="d-block w-100"
             src={OCTOPUS}
-            alt="Octupus picture in garden"
+            alt="Octupus wall muriel in garden"
           />
         </Carousel.Item>
         <Carousel.Item>
@@ -36,7 +36,7 @@ export default function AnchorHeaderCarousel() {
           <img
             className="d-block w-100"
             src={STRAWS}
-            alt="Picture of bar top and pool table"
+            alt="bar top and pool table"
           />
         </Carousel.Item>
       </Carousel>
