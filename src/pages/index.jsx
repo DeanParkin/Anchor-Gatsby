@@ -5,7 +5,6 @@ import { Helmet } from "react-helmet";
 
 import AnchorHeaderCarousel from "../components/AnchorHeaderCarousel";
 import NavBarAnchor from "../components/Nav";
-import Map from "../components/map/Map";
 
 
 const location = {

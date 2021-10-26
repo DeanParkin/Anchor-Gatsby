@@ -23,7 +23,7 @@ export default function NavBarAnchor() {
                         />
                         Yeahhh Buddy!
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"/>
+                    <Navbar.Toggle aria-controls="offcanvasNavbar" aria-labelledBy="offcanvasNavbarLabel"/>
                     <Navbar.Offcanvas
                         id="offcanvasNavbar"
                         placement="start"
