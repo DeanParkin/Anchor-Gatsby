@@ -21,9 +21,9 @@ export default function NavBarAnchor() {
                             height="30"
                             className="d-inline-block align-top"
                         />
-                        Yeahhh Buddy!
+                        Lets get Anchored!
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="offcanvasNavbar" aria-labelledBy="offcanvasNavbarLabel"/>
+                    <Navbar.Toggle aria-controls="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"/>
                     <Navbar.Offcanvas
                         id="offcanvasNavbar"
                         placement="start"
