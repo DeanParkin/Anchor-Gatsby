@@ -1,12 +1,11 @@
 import * as React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 
 import AnchorHeaderCarousel from "../components/AnchorHeaderCarousel";
 import NavBarAnchor from "../components/Nav";
 
-
+import "../css/style.css";
 
 export default function index() {
   return (

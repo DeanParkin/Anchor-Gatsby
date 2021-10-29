@@ -1,42 +1,25 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import { headerCarousel } from "../style/anchorHeaderCarousel.module.css";
 
-import BEERTAPS2 from "../images/carousel-images/BEERTAPS2.webp";
-import EXTERIOR from "../images/carousel-images/EXTERIOR.webp";
-import OCTOPUS from "../images/carousel-images/OCTOPUS.webp";
-import OUTSIDEPEOPLE from "../images/carousel-images/OUTSIDEPEOPLE.webp";
-import STRAWS from "../images/carousel-images/STRAWS.webp";
+import CarouselIamge1 from "../images/spf-img/spf-carousel-01.jpg";
+import CarouselIamge2 from "../images/spf-img/spf-carousel-02.jpg";
+import CarouselIamge3 from "../images/spf-img/spf-carousel-03.jpg";
 
 export default function AnchorHeaderCarousel() {
   return (
-    <div className={headerCarousel}>
+    <div>
       <Carousel fade>
         <Carousel.Item>
-          <img className="d-block w-100" src={BEERTAPS2} alt="Beer Taps" />
+          <img className="d-block w-100" src={CarouselIamge1} alt="Beer Taps" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={EXTERIOR} alt="Exterior" />
+          <img className="d-block w-100" src={CarouselIamge2} alt="Exterior" />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={OCTOPUS}
+            src={CarouselIamge3}
             alt="Octupus wall muriel in garden"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={OUTSIDEPEOPLE}
-            alt="People enjoying front area"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={STRAWS}
-            alt="bar top and pool table"
           />
         </Carousel.Item>
       </Carousel>

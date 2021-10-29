@@ -1,14 +1,14 @@
 import React from "react";
 import { Nav, Navbar, Container, Offcanvas } from "react-bootstrap";
-import AnchorNavLogo from "../images/anchor-nav-logo.png";
+import NavLogo from "../images/spf-img/spf-logo.png";
 
 export default function NavBarAnchor() {
     return (
         <>
             <Navbar 
-                as="nav" 
-                bg="dark" 
-                variant="dark" 
+                as="nav"  
+                bg="primary"
+                variant="light" 
                 fixed="top" 
                 expand={false}
             >
@@ -16,12 +16,9 @@ export default function NavBarAnchor() {
                     <Navbar.Brand href="#home">
                         <img
                             alt=""
-                            src={AnchorNavLogo}
-                            width="30"
-                            height="30"
+                            src={NavLogo}
                             className="d-inline-block align-top"
                         />
-                        Lets get Anchored!
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"/>
                     <Navbar.Offcanvas
