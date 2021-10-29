@@ -18,6 +18,7 @@ export default function NavBarAnchor() {
                             src={NavLogo}
                             className="d-inline-block align-top"
                         />
+                        <span className="visually-hidden">SPF Paint and Decorating</span>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"/>
                     <Navbar.Offcanvas
