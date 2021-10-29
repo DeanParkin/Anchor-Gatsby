@@ -4,10 +4,9 @@ import NavLogo from "../images/spf-img/spf-logo.png";
 
 export default function NavBarAnchor() {
     return (
-        <>
+        <div className="carousel-container">
             <Navbar 
-                as="nav"  
-                bg="primary"
+                as="nav"
                 variant="light" 
                 fixed="top" 
                 expand={false}
@@ -42,6 +41,6 @@ export default function NavBarAnchor() {
                     </Navbar.Offcanvas>
                 </Container>
             </Navbar>
-        </>
+        </div>
     );
 }
