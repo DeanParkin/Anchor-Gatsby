@@ -5,7 +5,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-csp`,
     {
       resolve: `gatsby-plugin-csp`,
       options: {
