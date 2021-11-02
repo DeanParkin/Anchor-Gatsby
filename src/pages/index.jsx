@@ -14,7 +14,7 @@ export default function index() {
         <meta charSet="utf-8" />
         <html lang="en" />
         <title>Yeahhh Buddy!</title>
-        <meta http-equiv="Content-Security-Policy" content="script-src 'self' style-src 'self'"/>
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self'; style-src 'self'"/>
       </Helmet>
       <NavBarAnchor />
       <AnchorHeaderCarousel />
