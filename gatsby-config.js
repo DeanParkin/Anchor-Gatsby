@@ -16,7 +16,6 @@ module.exports = {
         directives: {
           "script-src": "'self' 'unsafe-inline'",
           "style-src": "'self'",
-          "img-src": "*",
           "object-src": "'none'",
           // you can add your directives or override defaults
         },
