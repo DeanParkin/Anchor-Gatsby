@@ -3,5 +3,5 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "Anchor-Gatsby",
   },
-  plugins: [`gatsby-plugin-react-helmet`],
+  plugins: [`gatsby-plugin-react-helmet`, `gatsby-plugin-csp`],
 };
