@@ -21,6 +21,16 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-netlify-headers`,
+    {
+      resolve: ` gatsby-plugin-netlify-headers`,
+      options: {
+        headers: {
+          "/*": [
+            "strict-transport-security: max-age=31536000; includeSubDomains; preload;",
+          ],
+        }, // option to add more headers. `Link` headers are transformed by the below criteria
+        allPageHeaders: [], // option to add headers for all pages. `Link` headers are transformed by the below criteria
+      },
+    },
   ],
 };
