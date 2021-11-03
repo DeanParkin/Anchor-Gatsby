@@ -27,7 +27,6 @@ module.exports = {
         headers: {
           "/*": [
             "strict-transport-security: max-age=31536000; includeSubDomains; preload;",
-            "Content-Security-Policy: default-src https:",
           ],
         }, // option to add more headers. `Link` headers are transformed by the below criteria
         allPageHeaders: [], // option to add headers for all pages. `Link` headers are transformed by the below criteria
