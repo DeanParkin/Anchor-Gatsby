@@ -33,13 +33,13 @@ module.exports = {
         display: `standalone`,
       },
     },
-    {
-      resolve: "gatsby-plugin-offline",
-      options: {
-        workboxConfig: {
-          globPatterns: ["**/src/images/icon.png*"],
-        },
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-offline",
+    //   options: {
+    //     workboxConfig: {
+    //       globPatterns: ["**/src/images/icon.png*"],
+    //     },
+    //   },
+    // },
   ],
 };
