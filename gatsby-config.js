@@ -22,11 +22,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-netlify-headers`,
+      resolve: ` gatsby-plugin-netlify-headers`,
       options: {
-        allPageHeaders: [
-          "Content-Security-Policy: script-src 'self' 'unsafe-inline'; style-src 'unsafe-inline'; object-src 'none';",
-        ], // option to add headers for all pages. `Link` headers are transformed by the below criteria
+        headers: {
+          "/*": [
+            "Content-Security-Policy: script-src 'self' 'unsafe-inline'; style-src 'unsafe-inline'; object-src 'none';",
+          ],
+        },
       },
     },
   ],
