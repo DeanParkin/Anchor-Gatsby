@@ -26,7 +26,6 @@ module.exports = {
       options: {
         headers: {
           "/*": [
-            "Content-Security-Policy: script-src 'self';",
             "strict-transport-security: max-age=31536001; includeSubDomains; preload;",
           ],
         }, // option to add more headers. `Link` headers are transformed by the below criteria
