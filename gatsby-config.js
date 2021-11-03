@@ -14,8 +14,8 @@ module.exports = {
         mergeStyleHashes: false, // you can disable styles sha256 hashes
         mergeDefaultDirectives: false,
         directives: {
-          "script-src": "'self' 'unsafe-inline'",
-          "style-src": "'self''unsafe-inline'",
+          "script-src": "'self'",
+          "style-src": "'self'",
           "object-src": "'none'",
           // you can add your directives or override defaults
         },
