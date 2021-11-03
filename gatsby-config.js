@@ -22,14 +22,14 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-netlify-headers`,
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        headers: {
-          "/*": [
-            "strict-transport-security: max-age=31536001; includeSubDomains; preload;",
-          ],
-        }, // option to add more headers. `Link` headers are transformed by the below criteria
-        allPageHeaders: [], // option to add headers for all pages. `Link` headers are transformed by the below criteria
+        name: `SPF-Decorating`,
+        short_name: `SPF`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#b3d6d2`,
+        display: `standalone`,
       },
     },
   ],
