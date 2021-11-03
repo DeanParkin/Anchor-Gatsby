@@ -21,18 +21,18 @@ module.exports = {
     //     },
     //   },
     // },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `SPF-Decorating`,
-        short_name: `SPF`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#b3d6d2`,
-        icon: `src/images/icon.png`, // This path is relative to the root of the site.
-        display: `standalone`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: `SPF-Decorating`,
+    //     short_name: `SPF`,
+    //     start_url: `/`,
+    //     background_color: `#ffffff`,
+    //     theme_color: `#b3d6d2`,
+    //     icon: `src/images/icon.png`, // This path is relative to the root of the site.
+    //     display: `standalone`,
+    //   },
+    // },
     // {
     //   resolve: "gatsby-plugin-offline",
     //   options: {
