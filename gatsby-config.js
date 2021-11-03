@@ -25,9 +25,9 @@ module.exports = {
       resolve: ` gatsby-plugin-netlify-headers`,
       options: {
         headers: {
-          "/*": [
+          "/*":
             "Content-Security-Policy: script-src 'self' 'unsafe-inline'; style-src 'unsafe-inline'; object-src 'none';",
-          ],
+          ,
         },
       },
     },
