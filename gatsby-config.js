@@ -15,7 +15,7 @@ module.exports = {
         mergeDefaultDirectives: false,
         directives: {
           "script-src": "'self' 'unsafe-inline'",
-          "style-src": "'unsafe-inline'",
+          "style-src": "'self''unsafe-inline'",
           "object-src": "'none'",
           // you can add your directives or override defaults
         },
