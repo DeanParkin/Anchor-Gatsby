@@ -1,9 +1,9 @@
 import * as React from "react";
-import { Container } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 
 import AnchorHeaderCarousel from "../components/AnchorHeaderCarousel";
 import NavBarAnchor from "../components/Nav";
+import About from "../components/About";
 
 import "../css/style.css";
 
@@ -17,9 +17,7 @@ export default function index() {
       </Helmet>
       <NavBarAnchor />
       <AnchorHeaderCarousel />
-      <Container>
-        <h2>Finally Got it Working!!!</h2>
-      </Container>
+      <About />
     </div>
   );
 }
